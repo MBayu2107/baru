@@ -1,0 +1,42 @@
+table tr td {
+    vertical-align: middle;
+}
+
+td button {
+    margin: 5px;
+}
+
+td button i {
+    font-size: 20px;
+}
+
+.modal-header {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body .col {
+    display: flex;
+}
+
+.modal-body form .imgholder {
+    flex-basis: 32%;
+    height: 100%;
+}
+
+.modal-body form .inputField {
+    flex-basis: 68%;
+    border-left: 5px groove blue;
+    padding-left: 90px;
+}
+
+.modal-body form .inputField > div {
+    margin-left: 0;
+}
